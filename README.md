@@ -1,6 +1,5 @@
 # InboxValid.ai — MCP Server for Real-Time Email Validation & Deliverability
 
-> **Task 2 (Option A)** submission for **Tvaram / InboxValid.ai** Internship Assignment.  
 > Built with **Node.js (ES Modules)** and the official `@modelcontextprotocol/sdk`.
 
 ---
