@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "inboxvalid": {
+      "command": "node",
+      "args": ["src/server.js"]
+    }
+  }
+}

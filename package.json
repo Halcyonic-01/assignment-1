@@ -1,0 +1,24 @@
+{
+  "name": "inboxvalid-mcp-server",
+  "version": "1.0.0",
+  "description": "Model Context Protocol (MCP) server for InboxValid.ai high-throughput email verification engine",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node tests/testVerifier.js"
+  },
+  "keywords": [
+    "mcp",
+    "email-verification",
+    "inboxvalid",
+    "ai-agent",
+    "model-context-protocol"
+  ],
+  "author": "InboxValid Candidate",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.6.1",
+    "dotenv": "^16.4.7"
+  }
+}
