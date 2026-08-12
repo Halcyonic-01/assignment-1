@@ -194,12 +194,14 @@ Add the following configuration to your `claude_desktop_config.json`:
     "inboxvalid": {
       "command": "node",
       "args": [
-        "/absolute/path/to/assignment-tvaram/src/server.js"
+        "/absolute/path/to/assignment-1/src/server.js"
       ]
     }
   }
 }
 ```
+
+> Replace `/absolute/path/to/assignment-1` with the actual path where you cloned this repository on your machine (e.g. `/Users/yourname/Documents/assignment-1`).
 
 ---
 
