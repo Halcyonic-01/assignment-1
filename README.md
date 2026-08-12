@@ -176,8 +176,9 @@ npx @modelcontextprotocol/inspector node src/server.js
 ```
 
 1. Open `http://localhost:5173` in your browser.
-2. Go to the **Tools** tab.
-3. Select `verify_email` or `verify_email_batch`, enter your test email address(es), and click **Run Tool**.
+2. Click the **Connect** button to establish the stdio transport connection.
+3. Go to the **Tools** tab.
+4. Select `verify_email` or `verify_email_batch`, enter your test email address(es), and click **Run Tool**.
 
 ### 💻 Testing JSON-RPC Protocol over Stdio
 ```bash
