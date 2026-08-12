@@ -158,17 +158,28 @@ delay *= backoffFactor;
 ### Installation
 ```bash
 # 1. Clone the repository
-git clone https://github.com/your-username/assignment-tvaram.git
-cd assignment-tvaram
+git clone https://github.com/Halcyonic-01/assignment-1.git
+cd assignment-1
 
 # 2. Install dependencies
 npm install
 
-# 3. Run the unit & integration test suite
+# 3. Run the unit test suite
 npm test
 ```
 
-### Testing JSON-RPC Protocol (Local Inspector)
+### 🎛️ Interactive Testing with Official MCP Web Inspector
+You can test the tools interactively using Anthropic's official MCP Inspector web interface:
+
+```bash
+npx @modelcontextprotocol/inspector node src/server.js
+```
+
+1. Open `http://localhost:5173` in your browser.
+2. Go to the **Tools** tab.
+3. Select `verify_email` or `verify_email_batch`, enter your test email address(es), and click **Run Tool**.
+
+### 💻 Testing JSON-RPC Protocol over Stdio
 ```bash
 node tests/testMcpProtocol.js
 ```
